@@ -72,7 +72,13 @@ Command for Redis-stack (we are using an older version because of stability issu
 docker run -d --name redis-stack -p 6379:6379 -p 8001:8001 redis/redis-stack:7.2.0-v2
 ```
 
-## Redis
+## Architecture
+
+![redis](./img/Redis.excalidraw.png)
+
+# Redis Datatypes
+
+![datatypes](./img/Redis-Datatypes.excalidraw.png)
 
 ### Redis Strings
 
@@ -189,3 +195,9 @@ Some basic commands for Lists:
 Some blocking commands
 
 1. `BLPOP` (pop normally till no values are left to pop, and then enter in blocking mode till a certain timeout or a new value is inserted)
+
+More datatypes on the documentation of `redis`. To read the documentation [click here](https://redis.io/docs/latest/)
+
+### Examples of Redis
+
+![exmaples](./img/Redis-example.excalidraw.png)
