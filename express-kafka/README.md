@@ -1,6 +1,6 @@
 # Express + Kafka( Distributed Stream Processing System)
 
-![kafka](https://static-00.iconduck.com/assets.00/kafka-icon-2048x935-cvu4503l.png)
+![kafka](https://www.unosquare.com/wp-content/uploads/2019/07/Unosquare_81.webp)
 
 ## Installation & Setup
 
