@@ -123,4 +123,6 @@ Kafka : Distributed Stream Processing System
     * We can insert efficiently append data to the end(rather than having complex structures like B-Trees to change its structure or fragments on each push)
 
 * Performance >> 
-* Reliable
+* Distributed
+    * With zookeeper the concept is still append only log, we have a leader partition and can write to it
+    * The data written to the leader will be copied to the follower partitions. 
